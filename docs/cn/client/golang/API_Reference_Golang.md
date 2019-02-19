@@ -3,7 +3,8 @@
 
 ```$shell
 # deepin
-sudo apt-get install autoconf automake libtool cmake libboost-all-dev libevent-dev libjsoncpp-dev
+Q1: 到scoped_ptr 终止编译
+Q2: 主要原因就是我这边gcc版本太高(7.3.0)，unique_ptr（scoped_ptr）
 ```
 
 ## 1. producer.go
