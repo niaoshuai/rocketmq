@@ -97,4 +97,3 @@
 | SendMessageSync(msg *Message)                                | *SendResult, error | 同步发送消息        |      |
 | SendMessageOrderly(msg *Message, selector MessageQueueSelector, arg interface{}, autoRetryTimes int) | *SendResult, error | 顺序发送消息        |      |
 | SendMessageOneway(msg *Message)                              |       error        | oneway 方式发送消息 |      |
-
