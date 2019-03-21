@@ -98,11 +98,3 @@
 | SendMessageOrderly(msg *Message, selector MessageQueueSelector, arg interface{}, autoRetryTimes int) | *SendResult, error | 顺序发送消息        |      |
 | SendMessageOneway(msg *Message)                              |       error        | oneway 方式发送消息 |      |
 
-
-
-## 3. pull_customer.go
-
-## 4. push_customer.go
-
-## 5. queue.go
-
